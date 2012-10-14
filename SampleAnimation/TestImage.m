@@ -28,6 +28,17 @@
         //self.contentMode = UIViewContentModeCenter;
         //UIImage *img2 = [UIImage imageNamed:@"tabimg1@2x.png"];
         
+        
+        // 波画像表示
+        imgRippleView_ = [[UIImageView alloc] initWithImage:img];
+        [self addSubview:imgRippleView_];
+        imgRippleView_.frame = CGRectMake(imgRippleView_.frame.origin.x,
+                                   imgRippleView_.frame.origin.y,
+                                   imgRippleView_.frame.size.width/2,
+                                   imgRippleView_.frame.size.height/2);
+        imgRippleView_.center = CGPointMake(self.frame.size.width/2, self.frame.size.height/2);
+        
+        
         // スコープ画像
         UIImage *imgScope = [UIImage imageNamed:@"dripimg.png"];
         imgScopeView_ = [[UIImageView alloc] initWithImage:imgScope];
@@ -60,13 +71,48 @@
     if (imgScopeView_.alpha == 0) {
         [UIView animateWithDuration:0.2 animations:^{
             imgScopeView_.alpha = 1;
+            [self startRippling];
+            self.animating = YES;
         }];
     } else {
         [UIView animateWithDuration:0.2 animations:^{
             imgScopeView_.alpha = 0;
+            self.animating = NO;
         }];
     }
 }
+
+
+// 波紋のアニメーションを開始する
+- (void)startRippling
+{
+    if(self.animating) return;
+    
+    // 初期状態の設定
+    // 最初は frame の中心に 0x0 のサイズで．
+    //imgRippleView_.bounds = CGRectMake(imgRippleView_.frame.size.width/2, imgRippleView_.frame.size.height/2, 0, 0);
+    
+    imgRippleView_.bounds = CGRectMake(0, 0,
+                                       imgRippleView_.frame.size.width/2,
+                                       imgRippleView_.frame.size.height/2);
+    imgRippleView_.alpha = 1.0; // alphaを0にする
+    
+    [UIView animateWithDuration:1.5f // 1.5秒置きに
+                          delay:0.0f // 0.0秒後から
+                        options:UIViewAnimationOptionRepeat // 永遠に繰り返す
+     |UIViewAnimationOptionCurveEaseOut // 初めは早く終わりは遅くなるような変化
+     |UIViewAnimationOptionAllowUserInteraction // アニメーション中でもユーザによるViewの操作を可能にする
+                     animations:^{
+                         // このブロックの中にアニメーションの最終状態を記述する
+                         imgRippleView_.alpha = 0.0; // alphaを0にする
+                         imgRippleView_.bounds = CGRectMake(0, 0,
+                                                            imgRippleView_.frame.size.width*2,
+                                                            imgRippleView_.frame.size.height*2);
+                     }
+                     completion:nil]; // アニメーションが終わっても何もしない
+    self.animating = YES;
+}
+
 
 -(void)drawRect:(CGRect)rect {
     NSLog(@"drawRect");

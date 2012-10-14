@@ -10,7 +10,12 @@
 
 @interface TestImage : UIImageView {
     UIImageView *imgScopeView_;
+    UIImageView *imgRippleView_;
 }
+
+@property BOOL animating;
+
+- (void)startRippling;
 
 -(void)scopeOn;
 
