@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87D56AF3162AB368005FA5BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D56AF2162AB368005FA5BC /* UIKit.framework */; };
+		87D56AF5162AB368005FA5BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D56AF4162AB368005FA5BC /* Foundation.framework */; };
+		87D56AF7162AB368005FA5BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D56AF6162AB368005FA5BC /* CoreGraphics.framework */; };
+		87D56AFD162AB368005FA5BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87D56AFB162AB368005FA5BC /* InfoPlist.strings */; };
+		87D56AFF162AB368005FA5BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D56AFE162AB368005FA5BC /* main.m */; };
+		87D56B03162AB368005FA5BC /* studio_iLeafAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D56B02162AB368005FA5BC /* studio_iLeafAppDelegate.m */; };
+		87D56B05162AB368005FA5BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D56B04162AB368005FA5BC /* Default.png */; };
+		87D56B07162AB368005FA5BC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D56B06162AB368005FA5BC /* Default@2x.png */; };
+		87D56B09162AB368005FA5BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D56B08162AB368005FA5BC /* Default-568h@2x.png */; };
+		87D56B0C162AB368005FA5BC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D56B0A162AB368005FA5BC /* MainStoryboard.storyboard */; };
+		87D56B0F162AB368005FA5BC /* studio_iLeafViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D56B0E162AB368005FA5BC /* studio_iLeafViewController.m */; };
+		87D56B1A162AB50F005FA5BC /* TestImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D56B19162AB50F005FA5BC /* TestImage.m */; };
+		87D56B38162ACCAE005FA5BC /* dripimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D56B37162ACCAE005FA5BC /* dripimg.png */; };
+		87D56B3B162ACCCD005FA5BC /* tabimg1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D56B3A162ACCCD005FA5BC /* tabimg1@2x.png */; };
+		87D56B50162AFB5E005FA5BC /* RippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D56B4F162AFB5E005FA5BC /* RippleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87D56AEE162AB368005FA5BC /* SampleAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D56AF2162AB368005FA5BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87D56AF4162AB368005FA5BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87D56AF6162AB368005FA5BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87D56AFA162AB368005FA5BC /* SampleAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleAnimation-Info.plist"; sourceTree = "<group>"; };
+		87D56AFC162AB368005FA5BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87D56AFE162AB368005FA5BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87D56B00162AB368005FA5BC /* SampleAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		87D56B01162AB368005FA5BC /* studio_iLeafAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = studio_iLeafAppDelegate.h; sourceTree = "<group>"; };
+		87D56B02162AB368005FA5BC /* studio_iLeafAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = studio_iLeafAppDelegate.m; sourceTree = "<group>"; };
+		87D56B04162AB368005FA5BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		87D56B06162AB368005FA5BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		87D56B08162AB368005FA5BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		87D56B0B162AB368005FA5BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		87D56B0D162AB368005FA5BC /* studio_iLeafViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = studio_iLeafViewController.h; sourceTree = "<group>"; };
+		87D56B0E162AB368005FA5BC /* studio_iLeafViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = studio_iLeafViewController.m; sourceTree = "<group>"; };
+		87D56B18162AB50F005FA5BC /* TestImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestImage.h; sourceTree = "<group>"; };
+		87D56B19162AB50F005FA5BC /* TestImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestImage.m; sourceTree = "<group>"; };
+		87D56B37162ACCAE005FA5BC /* dripimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dripimg.png; sourceTree = "<group>"; };
+		87D56B3A162ACCCD005FA5BC /* tabimg1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabimg1@2x.png"; sourceTree = "<group>"; };
+		87D56B4E162AFB5E005FA5BC /* RippleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleView.h; sourceTree = "<group>"; };
+		87D56B4F162AFB5E005FA5BC /* RippleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87D56AEB162AB368005FA5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D56AF3162AB368005FA5BC /* UIKit.framework in Frameworks */,
+				87D56AF5162AB368005FA5BC /* Foundation.framework in Frameworks */,
+				87D56AF7162AB368005FA5BC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87D56AE3162AB368005FA5BC = {
+			isa = PBXGroup;
+			children = (
+				87D56AF8162AB368005FA5BC /* SampleAnimation */,
+				87D56AF1162AB368005FA5BC /* Frameworks */,
+				87D56AEF162AB368005FA5BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87D56AEF162AB368005FA5BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87D56AEE162AB368005FA5BC /* SampleAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87D56AF1162AB368005FA5BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87D56AF2162AB368005FA5BC /* UIKit.framework */,
+				87D56AF4162AB368005FA5BC /* Foundation.framework */,
+				87D56AF6162AB368005FA5BC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87D56AF8162AB368005FA5BC /* SampleAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				87D56B01162AB368005FA5BC /* studio_iLeafAppDelegate.h */,
+				87D56B02162AB368005FA5BC /* studio_iLeafAppDelegate.m */,
+				87D56B0A162AB368005FA5BC /* MainStoryboard.storyboard */,
+				87D56B0D162AB368005FA5BC /* studio_iLeafViewController.h */,
+				87D56B0E162AB368005FA5BC /* studio_iLeafViewController.m */,
+				87D56B18162AB50F005FA5BC /* TestImage.h */,
+				87D56B19162AB50F005FA5BC /* TestImage.m */,
+				87D56B4E162AFB5E005FA5BC /* RippleView.h */,
+				87D56B4F162AFB5E005FA5BC /* RippleView.m */,
+				87D56AF9162AB368005FA5BC /* Supporting Files */,
+			);
+			path = SampleAnimation;
+			sourceTree = "<group>";
+		};
+		87D56AF9162AB368005FA5BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87D56B3A162ACCCD005FA5BC /* tabimg1@2x.png */,
+				87D56B37162ACCAE005FA5BC /* dripimg.png */,
+				87D56AFA162AB368005FA5BC /* SampleAnimation-Info.plist */,
+				87D56AFB162AB368005FA5BC /* InfoPlist.strings */,
+				87D56AFE162AB368005FA5BC /* main.m */,
+				87D56B00162AB368005FA5BC /* SampleAnimation-Prefix.pch */,
+				87D56B04162AB368005FA5BC /* Default.png */,
+				87D56B06162AB368005FA5BC /* Default@2x.png */,
+				87D56B08162AB368005FA5BC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87D56AED162AB368005FA5BC /* SampleAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D56B12162AB368005FA5BC /* Build configuration list for PBXNativeTarget "SampleAnimation" */;
+			buildPhases = (
+				87D56AEA162AB368005FA5BC /* Sources */,
+				87D56AEB162AB368005FA5BC /* Frameworks */,
+				87D56AEC162AB368005FA5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleAnimation;
+			productName = SampleAnimation;
+			productReference = 87D56AEE162AB368005FA5BC /* SampleAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87D56AE5162AB368005FA5BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = studio.iLeaf;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Atsushi Hirasugi";
+			};
+			buildConfigurationList = 87D56AE8162AB368005FA5BC /* Build configuration list for PBXProject "SampleAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87D56AE3162AB368005FA5BC;
+			productRefGroup = 87D56AEF162AB368005FA5BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87D56AED162AB368005FA5BC /* SampleAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87D56AEC162AB368005FA5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D56AFD162AB368005FA5BC /* InfoPlist.strings in Resources */,
+				87D56B05162AB368005FA5BC /* Default.png in Resources */,
+				87D56B07162AB368005FA5BC /* Default@2x.png in Resources */,
+				87D56B09162AB368005FA5BC /* Default-568h@2x.png in Resources */,
+				87D56B0C162AB368005FA5BC /* MainStoryboard.storyboard in Resources */,
+				87D56B38162ACCAE005FA5BC /* dripimg.png in Resources */,
+				87D56B3B162ACCCD005FA5BC /* tabimg1@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87D56AEA162AB368005FA5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D56AFF162AB368005FA5BC /* main.m in Sources */,
+				87D56B03162AB368005FA5BC /* studio_iLeafAppDelegate.m in Sources */,
+				87D56B0F162AB368005FA5BC /* studio_iLeafViewController.m in Sources */,
+				87D56B1A162AB50F005FA5BC /* TestImage.m in Sources */,
+				87D56B50162AFB5E005FA5BC /* RippleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87D56AFB162AB368005FA5BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87D56AFC162AB368005FA5BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87D56B0A162AB368005FA5BC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87D56B0B162AB368005FA5BC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87D56B10162AB368005FA5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87D56B11162AB368005FA5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87D56B13162AB368005FA5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleAnimation/SampleAnimation-Prefix.pch";
+				INFOPLIST_FILE = "SampleAnimation/SampleAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87D56B14162AB368005FA5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleAnimation/SampleAnimation-Prefix.pch";
+				INFOPLIST_FILE = "SampleAnimation/SampleAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87D56AE8162AB368005FA5BC /* Build configuration list for PBXProject "SampleAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D56B10162AB368005FA5BC /* Debug */,
+				87D56B11162AB368005FA5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87D56B12162AB368005FA5BC /* Build configuration list for PBXNativeTarget "SampleAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D56B13162AB368005FA5BC /* Debug */,
+				87D56B14162AB368005FA5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87D56AE5162AB368005FA5BC /* Project object */;
+}
